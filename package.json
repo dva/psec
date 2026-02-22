@@ -1,0 +1,25 @@
+{
+  "name": "psec",
+  "version": "1.0.0",
+  "description": "PNPM Workspace Configuration",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsx index.ts",
+    "start:native": "node index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.30.0",
+  "type": "module",
+  "exports": "./index.js",
+  "engines": {
+    "node": ">=24",
+    "pnpm": ">=10"
+  },
+  "dependencies": {
+    "cowsay": "^1.6.0",
+    "tsx": "^4.21.0"
+  }
+}
